@@ -33,6 +33,11 @@ p{
     bottom: 2.5rem;
 }
 
+.list{
+    text-align: right 4rem;
+ 
+ 
+}
 
 /* section */
 .Section_Text{
@@ -83,7 +88,8 @@ p{
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-     box-shadow:  10px 10px rgb(163, 163, 163);
+    box-shadow:  10px 10px rgb(163, 163, 163);
+    list-style-position: inside;
 }
 .text-container img h1 {
     display: flex;
