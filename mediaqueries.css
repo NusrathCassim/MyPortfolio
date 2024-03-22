@@ -34,11 +34,12 @@
     }
     section{
         margin: 0 5%;
+      
     }
     .section_pic-container{
         width: 274px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: 0 auto ;
     }
     .about-container{
         margin-top: 0;
@@ -50,6 +51,17 @@
         padding-bottom: 3rem;
       
     }
+    #Social-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        
+        justify-content: center;
+    }
+    .about-details-container{
+        margin-top: 2rem;
+    }
+    
 }
 
 @media screen and (max-width: 600px){
@@ -111,5 +123,6 @@
         padding-bottom: 3rem;
       
     }
+   
    
 }
